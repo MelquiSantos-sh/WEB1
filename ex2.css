@@ -87,6 +87,7 @@ footer {
     /* cor cinza clara */
     text-align: center;
     /* centraliza texto */
+    justify-content: center;
     padding: 10px;
     /* espaço interno */
     font-size: 14px;
