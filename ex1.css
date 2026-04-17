@@ -1,0 +1,63 @@
+/* Define a fonte padrão do site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Container que centraliza o conteúdo */
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Primeira caixa (bege) */
+.box1 {
+    background-color: #e6d3b0;
+    /* Cor de fundo */
+    padding: 20px;
+    /* Espaçamento interno */
+    border-radius: 4px;
+    margin-bottom: 20px;
+    /*espacamento entre as caixas*/
+    line-height: 1.6;
+    /* Espaçamento entre linhas */
+    font-size: 18px;
+    /*tamanho do texto*/
+}
+
+.box2 {
+    /* Segunda caixa (azulada) */
+    background-color: #a7c9c9;
+    /* Cor de fundo */
+    padding: 20px;
+    /* Espaçamento interno */
+    border-radius: 4px;
+    /* Espaço entre as caixas */
+    line-height: 1.6;
+    /* Espaçamento entre linhas */
+    font-size: 18px;
+    /* Segunda caixa (azulada) */
+}
+
+.linus {
+    /* palavra que destaca Linus Torvalds */
+    background-color: #a7c9c9;
+    /* marca-texto */
+    font-weight: bold;
+    /* Negrito */
+}
+
+.destaque {
+    /* Palavra destacada (Red Hat) */
+    color: purple;
+    /* Cor roxa */
+    font-weight: bold;
+    /* Negrito */
+}
