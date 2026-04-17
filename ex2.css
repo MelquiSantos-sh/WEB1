@@ -1,0 +1,99 @@
+
+body {
+    margin: 0;/* Remove margens padrão do navegador */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    /* Cor escura do fundo externo */
+}
+
+
+.container {
+    /* Container central do site */
+
+    width: 900px;
+    /* largura do site */
+    margin: auto;
+    /* centraliza o site */
+    background-color: #fff;
+    /* fundo branco */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3c4a63;
+    /* cor azul escuro */
+    padding: 25px;
+    /* espaço interno */
+    text-align: center;
+    /* centraliza o texto */
+    color: white;
+    /* cor do texto */
+}
+
+
+nav {
+    /* Menu de navegação */
+    background-color: #2c7a8c;
+    /* cor azul esverdeada */
+    text-align: center;
+    /* centraliza os links */
+    padding: 10px;
+    /* espaço interno */
+}
+
+/* Links do menu */
+nav a {
+
+    color: white;
+    /* cor branca */
+    margin: 0 15px;
+    /* espaço entre os links */
+    font-weight: bold;
+    /* deixa em negrito */
+
+}
+
+main {
+    /* Área do conteúdo */
+    padding: 30px;
+    /* espaço interno */
+}
+
+h2 {
+    /* Títulos das seções */
+    color: #2c3e94;
+    /* cor azul */
+    border-bottom: 2px solid #9aa6d1;
+    /* linha inferior */
+    padding-bottom: 5px;
+    /* espaço abaixo */
+
+
+}
+
+p {
+    /* Parágrafos */
+    line-height: 1.6;
+    /* espaçamento entre linhas */
+    text-align: justify;
+    /* alinhamento do texto */
+
+
+}
+
+footer {
+    /* Rodapé */
+    background-color: #d9d9d9;
+    /* cor cinza clara */
+    text-align: center;
+    /* centraliza texto */
+    padding: 10px;
+    /* espaço interno */
+    font-size: 14px;
+    /* tamanho menor da fonte */
+
+}
+
+.home {
+    color: rgba(127, 255, 212, 0.459);
+}
