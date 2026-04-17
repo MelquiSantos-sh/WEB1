@@ -1,0 +1,21 @@
+p{
+    font-size: 35px; /*ajuste do tamanho da fonte*/
+    text-align: justify; /*alinhar o texto de forma justificada. Ele aumenta ou diminui os espaços entre as palavras automaticamente para preencher toda a largura da linha.*/
+    margin: 100px; /*serve para controlar o espaço externo de um elemento, ou seja, a distância dele em relação a outros elementos ao redor.*/
+}
+.amarelo{
+    background-color: yellow ; /*Tag utilizada pra definir a cor da celula ou do interior da tag*/
+}
+.verde{
+    background-color: greenyellow; /*Tag utilizada pra definir a cor da celula ou do interior da tag*/
+}
+.rosa{
+    background-color: pink ; /*Tag utilizada pra definir a cor da celula ou do interior da tag*/
+}
+
+
+/*
+margin → espaço fora da caixa
+padding → espaço dentro da caixa
+border → a borda da caixa
+*/
