@@ -45,12 +45,15 @@
  .caixa{/**/
     background-color: rgb(129, 122, 122);/**/
     border: 3px solid black;       /*propriedades da borda*/ 
-    height: 34vw; /*altura do elemento*/
-    font-size:28px ;/*tamanho da fonte*/
-    padding: 20px; /*espaço da borda interna */
+    height: 30vw; /*altura do elemento*/
+    font-size:30px ;/*tamanho da fonte*/
+    padding: 40px; /*espaço da borda interna */
     margin-bottom: 10px;
-
-
+ }
+ p{
+   text-align: justify;
+   text-justify: center;
+   
  }
  
  h2{
