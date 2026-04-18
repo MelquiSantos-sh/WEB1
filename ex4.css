@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: "Albert Sans", sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+span {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.pagina {
+    margin-top: 11px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.caixa_branca {
+    background-color: white;
+    width: 90%;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #9af6b1;
+    height: 150px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+.opcao {
+    background-color: #6eb4807c;
+    padding: 5px;
+    color: #2424a4;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.h1 {
+    color: #2d8a44;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.cont p {
+    text-indent: 40px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.cont .ap {
+    color: rgb(83, 83, 83);
+
+}
+
+.h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.listas {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-left: 30px;
+}
+
+.semestres {
+    display: flex;
+    margin: 10px;
+
+}
+
+.semestres ul li {
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.destaque {
+    background-color: #8bffa8;
+}
