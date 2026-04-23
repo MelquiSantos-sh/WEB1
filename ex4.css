@@ -1,101 +1,151 @@
 * {
     margin: 0;
+    /* Remove a margem externa padrão de todos os elementos */
     padding: 0px;
+    /* Remove o espaçamento interno padrão de todos os elementos */
     font-family: "Albert Sans", sans-serif;
+    /* Define a fonte padrão; caso não carregue, usa qualquer sans-serif */
 }
 
 body {
     background-color: gray;
+    /* Define o fundo da página como cinza (aparece nas bordas laterais) */
 }
+
 
 span {
     margin: 10px;
+    /* Adiciona 10px de margem ao redor do span */
     font-weight: bold;
+    /* Deixa o texto em negrito */
 }
 
 .pagina {
     margin-top: 11px;
+    /* Pequeno espaço no topo da página */
     height: 100%;
+    /* Ocupa 100% da altura disponível */
     display: flex;
+    /* Ativa o modo Flexbox para organizar os filhos */
     flex-direction: column;
+    /* Empilha os filhos na vertical (um abaixo do outro) */
     align-items: center;
-
+    /* Centraliza os filhos horizontalmente */
 }
 
 .caixa_branca {
     background-color: white;
+    /* Fundo branco da caixa principal */
     width: 90%;
+    /* A caixa ocupa 90% da largura da tela */
 }
 
 .topo {
     display: flex;
+    /* Ativa o Flexbox */
     flex-direction: column;
+    /* Organiza os filhos em coluna (vertical) */
     justify-content: center;
+    /* Centraliza os filhos verticalmente */
     align-items: center;
+    /* Centraliza os filhos horizontalmente */
     gap: 20px;
+    /* Espaço de 20px entre os elementos filhos */
     background-color: #9af6b1;
+    /* Cor de fundo verde-clara */
     height: 150px;
+    /* Altura fixa do cabeçalho */
 }
 
 .menu {
     display: flex;
+    /* Coloca os itens do menu lado a lado (linha) */
     gap: 10px;
+    /* Espaço de 10px entre cada item do menu */
 }
 
 .opcao {
     background-color: #6eb4807c;
+    /* Verde semitransparente como fundo do botão */
     padding: 5px;
+    /* Espaçamento interno de 5px */
     color: #2424a4;
+    /* Cor do texto em azul escuro */
 }
 
 .conteudo {
     background-color: white;
+    /* Fundo branco */
     padding: 20px;
+    /* Espaçamento interno de 20px em todos os lados */
     font-size: 20px;
+    /* Tamanho de fonte de 20px para o conteúdo */
 }
 
 .h1 {
     color: #2d8a44;
+    /* Cor do texto em verde escuro */
     padding-top: 60px;
+    /* Espaço de 60px acima do título */
     padding-bottom: 30px;
+    /* Espaço de 30px abaixo do título */
+    ;
 }
 
 .cont p {
     text-indent: 40px;
+    /* Recuo de 40px na primeira linha de cada parágrafo (estilo livro) */
     line-height: 30px;
+    /* Altura de cada linha de texto (espaçamento entre linhas) */
     margin-bottom: 20px;
+    /* Espaço de 20px abaixo de cada parágrafo */
 }
 
 .cont .ap {
     color: rgb(83, 83, 83);
+    /* Cor cinza médio — deixa o texto mais discreto */
 
 }
 
 .h2 {
     margin-bottom: 30px;
+    /* Espaço de 30px abaixo do subtítulo */
     margin-top: 30px;
+    /* Espaço de 30px acima do subtítulo */
 }
 
 .listas {
     display: flex;
+    /* Ativa o Flexbox */
     flex-direction: column;
+    /* Organiza as listas em coluna (vertical) */
     gap: 9px;
+    /* Espaço de 9px entre cada lista */
     margin-left: 30px;
+    /* Recuo de 30px à esquerda */
 }
 
 .semestres {
     display: flex;
+    /* Coloca os semestres em linha (horizontal) */
     margin: 10px;
+    /* Margem de 10px em todos os lados */
 
 }
 
 .semestres ul li {
     list-style: none;
+    /* Remove o marcador padrão (bolinha/número) da lista */
     padding: 5px;
+    /* Espaçamento interno de 5px */
     margin: 10px;
+    /* Margem de 10px ao redor de cada item */
     border: 1px solid black;
+    /* Borda sólida preta de 1px ao redor de cada item */
 }
 
 .destaque {
+
     background-color: #8bffa8;
+    /* Fundo verde-claro para chamar atenção no elemento */
 }
